@@ -1,0 +1,7 @@
+#include  <stdio.h>
+void main()
+{
+   int a=5, b=7, c;
+   c=a*b-5;
+   printf("c=%d\n", c);
+}

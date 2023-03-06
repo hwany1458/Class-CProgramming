@@ -1,15 +1,21 @@
 #include <stdio.h>
-void print_array(char a[]);
+int sum_mat(int a[][3], int n);
 int main(void)
 {
- char str[10] ;
- printf("문자열을 입력:");
- scanf("%s", str);
- print_array(str);
+ int ma[3][3]={{3, 8, 6},
+	         {4, 1, 7},
+		 {5, 2, 9}};
+ int sum;
+ sum=sum_mat(ma , 3);
+ printf("행렬요소의 합: %d\n", sum);
  return 0;
 }
-void print_array(char a[])
+
+int sum_mat(int a[][3], int n)
 {
- printf("입력된 문자열:");
- printf("%s\n", a);
+ int i, j, total=0;
+ for(i=0;i<n; i++)
+   for(j=0;j<n; j++)
+     total+=a[i][j];
+ return total;
 }

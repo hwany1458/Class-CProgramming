@@ -1,8 +1,15 @@
 #include <stdio.h>
+void print_array(char a[]);
 int main(void)
 {
- char nation[3][9]={"Korea","China","Thailand"};
- for(int i=0;i<3;i++)
-   printf("%s\n", nation[i]);;
- return 0;
+	char str[10];
+	printf("문자열을 입력:");
+	scanf("%s", str);
+	print_array(str);
+	return 0;
+}
+void print_array(char a[])
+{
+	printf("입력된 문자열:");
+	printf("%s\n", a);
 }

@@ -37,8 +37,6 @@ for(i=0;i<10;i++)
        printf("Á¤´ä : %d", dan[i]*num[i]);
   }
 }
-
-
  printf("\n");
  return 0;
 }

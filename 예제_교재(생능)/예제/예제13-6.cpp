@@ -1,10 +1,9 @@
 #include <stdio.h>
 int main(void)
 {
- int num[3], i;
- for(i=0;i<3;i+=1)
-   scanf("%d",&num[i] );
- for(i=0;i<3;i+=1)
-   printf("%d\n",num[i] );
+ char str[20];
+ printf("문자열을 입력하고 Enter>");
+ gets(str);
+ printf("입력된  문자열  : %s \n", str);
  return 0;
 }

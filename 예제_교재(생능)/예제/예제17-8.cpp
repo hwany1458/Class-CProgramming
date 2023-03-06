@@ -17,7 +17,7 @@ int main(void)
    {
     scanf("%s %d", names, &score);
     fprintf(fp, "%s %d\n", names, score);
-    fflush(stdin);
+    getchar();
    }
  fclose(fp);
  return 0;

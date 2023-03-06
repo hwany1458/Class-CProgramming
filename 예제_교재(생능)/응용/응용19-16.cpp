@@ -6,7 +6,7 @@ int main(void)
 {
   time_t now;
   struct tm *d;
-  while(!kbhit())
+  while(!_kbhit())
   {
     system("cls");
     now=time(NULL);

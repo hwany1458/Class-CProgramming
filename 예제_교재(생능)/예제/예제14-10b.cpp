@@ -7,7 +7,7 @@ int main(void)
   printf("main i=%d j=%d\n",i,j);
   return 0;
 }
-void swap2(int *j, int *j)
+void swap2(int *i, int *j)
 {
   int temp;
   temp=*i;

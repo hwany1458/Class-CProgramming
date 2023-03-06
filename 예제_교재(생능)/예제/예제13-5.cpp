@@ -1,10 +1,10 @@
 #include <stdio.h>
 int main(void)
 {
- char str[10] ;
- printf("문자열 입력 후 Enter>");
- scanf("%s", str);
- printf("입력된 문자열:%s\n",str); 
- printf("str[3]=%c \n",str[3] );
+ int num[3], i;
+ for(i=0;i<3;i+=1)
+   scanf("%d",&num[i] );
+ for(i=0;i<3;i+=1)
+   printf("%d\n",num[i] );
  return 0;
 }

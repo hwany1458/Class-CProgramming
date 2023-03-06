@@ -68,5 +68,6 @@ void presskey(void)
  printf("\n\n");
  printf("Enter를 누르면 메인 메뉴로...");
  scanf("%c",&c);
+ getchar();
 }
 

@@ -5,7 +5,7 @@ int main(void)
   char chr[10];
   int marks, sum=0;
   FILE *fp;
-  fp=fopen("2006cup.txt", "r");
+  fp=fopen("2018cup.txt", "r");
   if (fp==NULL)
    {
      printf("File open에 오류 발생");
